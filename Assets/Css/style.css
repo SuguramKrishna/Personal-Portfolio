@@ -1,0 +1,366 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #2aeae4;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    /* margin-top: 100px; */
+}
+
+header .logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(45, 54, 76, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .logo span {
+    color:#01113a;
+}
+
+header .navbar a {
+    font-family: 'Lato', sans-serif;
+    color: rgba(45, 54, 76, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 .8rem;
+    text-decoration: none;
+}
+
+header .navbar a:hover {
+    color: rgba(1, 17, 58, 255)
+}
+
+
+.intro {
+    background: rgb(230, 230, 230);
+    background: linear-gradient(170deg, rgba(230, 230, 230, 1) 75%, rgba(255, 255, 255, 1) 69%);
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.intro_slogan {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 137px;
+    padding-top: 50px;
+}
+
+.sub_intro {
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 137px;
+}
+
+.basics {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.basics p {
+    padding-top: 20px;
+    margin-left: 137px;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+}
+
+.experience {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 137px;
+}
+
+.skill_span {
+    font-weight: bold;
+}
+
+.sub_exp {
+    padding-top: 20px;
+    margin-left: 137px;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.name {
+    color: #2aeae4;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.half-circle {
+    width: 450px;
+    height: 750px;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
+    background: #01113a;
+    float: right;
+}
+
+.half-circle img {
+    width: 450px;
+}
+
+ 
+.about_div {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 5%;
+}
+
+.about_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 137px;
+    margin-top: 50px;
+}
+
+.about_para {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin-left: 137px;
+    margin-top: 50px;
+    line-height: 1.6;
+    margin-right: 10px;
+    margin-right: 137px;
+}
+
+.about_para a{
+    text-decoration: none;
+    color: #2aeae4;
+}
+.about_span {
+    color: #01113a;
+    font-weight: bolder;
+} 
+
+ .skill_div {
+    background: rgb(42, 234, 228);
+    background: linear-gradient(12deg, rgba(42, 234, 228, 1) 52%, rgba(255, 255, 255, 1) 55%);
+    margin-top: 100px;
+    height: 400px;
+    position: relative;
+}
+
+
+.skill_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 137px;
+    padding-bottom: 10px;
+    padding-top: 75px;
+}
+
+.skill_sub_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 137px;
+} 
+
+.skill_box { 
+     /* border: 5px solid;
+    border-image: linear-gradient(to right, #01113a, #2aeae4) 2;  */
+     margin-top: 50px;
+    margin-left: 300px;
+    width: 1000px;
+} 
+
+.skill_box img {
+    margin: 20px;
+}
+
+.separator{
+    height: 10px; 
+    background-color: #2aeae4;
+}
+.gallery_div {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(352deg, rgba(255, 255, 255, 1) 29%, rgba(42, 234, 228, 1) 31%);
+    position: relative;
+}
+
+.gallery_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 137px;
+    padding-bottom: 10px;
+    padding-top: 75px;
+}
+
+.gallery_sub_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 137px;
+}
+
+
+.image_grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 137px;
+    margin-right: 137px;
+}
+
+.column {
+    flex: 10%;
+    max-width: 35%;
+    padding: 5px 8px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+
+
+
+.video_gallery_div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 234, 228, 1);
+    position: relative;
+    margin-top: 5%;
+}
+
+.video_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 137px;
+    padding-bottom: 10px;
+    padding-top: 75px;
+}
+
+.video_sub_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 137px;
+}
+
+.video_grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 137px;
+    margin-right: 137px;
+
+}
+
+.video_column {
+    flex: 10%;
+    padding: 5px 8px;
+}
+
+.video_column iframe {
+    width: 600px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.contact_div {
+    height: 100%;
+    position: relative;
+    background: rgb(230,230,230);
+}
+
+.contact_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 137px;
+    padding-bottom: 10px;
+    padding-top: 75px;
+}
+
+.contact_sub_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 137px;
+    padding-top: 2%;
+}
+
+
+.contact_box {
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 1000px;
+}
+
+.contact_box img {
+    margin: 40px;
+}
+
+.credit {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 2rem 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2aeae4;
+}
+
+.credit a{
+    text-decoration: none;
+}
+
+.credit span {
+    color: #01113a;
+}
+
+.logo_tag p{
+   font-size: 20px;
+   font-weight: bold;
+   font-family: 'Lato', sans-serif;
+}
+
+.logo_name p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+ }
+
+tr{
+    text-align: center;
+}
+

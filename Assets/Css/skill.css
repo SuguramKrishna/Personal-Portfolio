@@ -1,0 +1,38 @@
+.skill_div {
+    position: relative;
+    background: rgb(42, 234, 228);
+    background: linear-gradient(12deg, rgba(42, 234, 228, 1) 52%, rgba(255, 255, 255, 1) 55%);
+}
+
+
+.skill_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 137px;
+    padding-bottom: 10px;
+    padding-top: 75px;
+}
+
+.skill_sub_heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 137px;
+}
+
+.skill_box {
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 1000px;
+    background: rgb(42, 234, 228);
+    background: linear-gradient(12deg, rgba(42, 234, 228, 1) 52%, rgba(255, 255, 255, 1) 55%);
+}
+
+.skill_box img {
+    margin: 20px;
+}
+
+.logo_name{
+    text-align: center;
+}
