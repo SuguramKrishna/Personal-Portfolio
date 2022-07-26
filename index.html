@@ -11,19 +11,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="./Assets/Js/index.js"></script>
 </head>
 
 <body>
     <header>
         <a href="#home" class="logo"><span>SK </span>Portfolio</a>
 
-        <nav class="navbar">
+        <nav class="navbar" id="small_nav">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#gallery">Gallery</a>
             <a href="#video">Project</a>
             <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </nav>
     </header>
 
@@ -40,8 +44,8 @@
                 <p>I'm <span class="name">Suguram Krishna</p>
                 <p>Web Developer, Blogger, Positive Minded</p>
             </div>
-            <h3 class="experience">2+ <span>Years</h3>
-            <p class="sub_exp">of hands on practice in <span class="skill_span">Web Development and Blogging</span></p>
+            <h3 class="experience">Learnt &<span>Skilled</h3>
+            <p class="sub_exp">about <span class="skill_span">Web Development and Blogging</span></p>
         </div>
     </section>
 
