@@ -478,3 +478,12 @@ header .navbar .icon {
         padding-top: 50px;
     } */
 }
+
+.video_column p  {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
