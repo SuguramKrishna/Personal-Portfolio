@@ -295,7 +295,7 @@ header .navbar .icon {
 
 .video_column {
   flex: 10%;
-  padding: 5px 8px;
+  padding: 5px 10px;
 }
 
 .video_column iframe {
@@ -367,6 +367,12 @@ header .navbar .icon {
   font-family: "Lato", sans-serif;
   text-align: center;
 }
+
+.contact_div table{
+  margin-left: 5%;
+}
+
+
 
 .contact_div table tr {
     text-align: center;
